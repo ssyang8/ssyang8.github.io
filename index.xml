@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Chen&#39;s Blog</title>
-    <link>https://kyxie.github.io/</link>
+    <link>https://ssyang8.github.io/</link>
     <description>Recent content on Chen&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://kyxie.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ssyang8.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About me</title>
-      <link>https://kyxie.github.io/about/</link>
+      <link>https://ssyang8.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://kyxie.github.io/about/</guid>
+      <guid>https://ssyang8.github.io/about/</guid>
       <description>class Me: def __init__(self): self.name = &amp;#34;Chen Yang&amp;#34; self.born_year = 2001 self.MBTI = &amp;#34;ESTP&amp;#34; self.hometown = &amp;#34;Shanghai, CN&amp;#34; self.curr_location = &amp;#34;Ann Arbor, MI, US&amp;#34; self.undergrad_school = &amp;#34;Umich&amp;#34; </description>
     </item>
     <item>
       <title>Asteroids Game Development Project</title>
-      <link>https://kyxie.github.io/projects/asteroid/</link>
+      <link>https://ssyang8.github.io/projects/asteroid/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://kyxie.github.io/projects/asteroid/</guid>
+      <guid>https://ssyang8.github.io/projects/asteroid/</guid>
       <description>A project detailing the creation of an &amp;#39;Asteroids&amp;#39; game with core logic, interactive features, and complex state management developed using JavaScript and jQuery.</description>
     </item>
     <item>
       <title>Hadoop MapReduce Simulation</title>
-      <link>https://kyxie.github.io/projects/hadoopmapreduce/</link>
+      <link>https://ssyang8.github.io/projects/hadoopmapreduce/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://kyxie.github.io/projects/hadoopmapreduce/</guid>
+      <guid>https://ssyang8.github.io/projects/hadoopmapreduce/</guid>
       <description>A simulation project of Hadoop&amp;#39;s MapReduce framework, designed for efficient execution of MapReduce programs across computer clusters, focusing on concurrency and robust communication protocols for stability and fault tolerance.</description>
     </item>
     <item>
       <title>InstaCraft: Instagram Clone</title>
-      <link>https://kyxie.github.io/projects/insta485/</link>
+      <link>https://ssyang8.github.io/projects/insta485/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://kyxie.github.io/projects/insta485/</guid>
+      <guid>https://ssyang8.github.io/projects/insta485/</guid>
       <description>An Instagram clone called InstaCraft with features like React.js for interactive elements, Flask for backend development, AJAX for asynchronous data loading, and NGINX integration for scalability and performance enhancement.</description>
     </item>
     <item>
       <title>Scalable Search Engine Development</title>
-      <link>https://kyxie.github.io/projects/searchengine/</link>
+      <link>https://ssyang8.github.io/projects/searchengine/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://kyxie.github.io/projects/searchengine/</guid>
+      <guid>https://ssyang8.github.io/projects/searchengine/</guid>
       <description>Development of a scalable search engine optimized for dynamic web page content and searches, implementing service-oriented architecture and employing technologies like JSON and HTML for server responses.</description>
     </item>
   </channel>
