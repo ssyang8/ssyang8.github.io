@@ -402,9 +402,9 @@ h3{
     /* 使其宽度占满父容器 */
     text-align: justify;
     /* 两端对齐文本 */
-    font-family: Arial, sans-serif;
     /* 设置字体 */
     line-height: 1.6;
+    color: #777;
     /* 设置行高 */
     padding: 10px;
     /* 添加内边距 */
