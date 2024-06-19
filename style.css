@@ -357,36 +357,67 @@ h3{
 }
 
 /* ----- PROJECTS BOX ----- */
-.project-container{
+.project-container {
     display: flex;
     width: 100%;
     justify-content: space-between;
     gap: 20px;
     flex-wrap: wrap;
 }
-.project-box{
+
+.project-box {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 30%;
-    height: 250px;
+    width: 45%;
+    /* 增加宽度 */
+    height: 350px;
+    /* 增加高度 */
     background: var(--color-white);
     border-radius: 20px;
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
     overflow: hidden;
+    padding: 20px;
+    /* 添加内边距 */
 }
-.project-box>i{
+
+.project-box>i {
     font-size: 50px;
     color: #00B5E7;
     margin-bottom: 25px;
 }
-.project-box label{
+
+.project-box label {
     font-size: 15px;
     color: #777;
 }
-.project-box::after, .contact-info::after{
+
+.scrollable-content {
+    margin-top: 20px;
+    max-height: 175px;
+    overflow-y: auto;
+    width: 100%;
+    /* 使其宽度占满父容器 */
+    text-align: justify;
+    /* 两端对齐文本 */
+    font-family: Arial, sans-serif;
+    /* 设置字体 */
+    line-height: 1.6;
+    /* 设置行高 */
+    padding: 10px;
+    /* 添加内边距 */
+    background-color: #f9f9f9;
+    /* 设置背景色 */
+    border-radius: 10px;
+    /* 设置圆角 */
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    /* 设置阴影 */
+}
+
+.project-box::after,
+.contact-info::after {
     content: "";
     position: absolute;
     bottom: -100%;
@@ -396,16 +427,18 @@ h3{
     transition: .4s;
     z-index: 1;
 }
-.project-box:hover.project-box::after,
-.contact-info:hover.contact-info::after{
+
+/* .project-box:hover::after,
+.contact-info:hover::after {
     bottom: 0;
 }
-.project-box:hover.project-box i,
-.project-box:hover.project-box>h3,
-.project-box:hover.project-box>label{
+
+.project-box:hover i,
+.project-box:hover h3,
+.project-box:hover label {
     color: var(--color-white);
     z-index: 2;
-}
+} */
 
 /* ----- CONTACT BOX ----- */
 .contact-info{
